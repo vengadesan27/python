@@ -1,0 +1,16 @@
+a=input("boy: ")
+b=input("girl:")
+c=len(a)
+d=len(b)
+e=c+d
+for i in range(c):
+    for j in range(d):
+        if(a[i]==b[j]):
+            e=e-1
+print(e)
+check=list("flames")
+b=0
+for i in range(0,5):
+    b=(b+(e-1))%(len(check))
+    check.pop(b)
+print (check)
