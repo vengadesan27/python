@@ -5,3 +5,13 @@ def raju(a):
     print("hai")
     raju(a-1)
 raju(5)
+
+
+def abc(n):
+    if n==1:
+        return 1
+    b=abc(n-1)
+    print("hai")
+    return b+2
+a=abc(4)
+print(a)
