@@ -1,0 +1,7 @@
+def raju(a):
+    if(a==1):
+        return
+    raju(a-1)
+    print("hai")
+    raju(a-1)
+raju(5)
