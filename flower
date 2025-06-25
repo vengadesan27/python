@@ -1,0 +1,8 @@
+def flower(a):
+    if(a==4):
+        return
+    print(a+10)
+    flower(a+1)
+    print(a)
+flower(1)
+    
